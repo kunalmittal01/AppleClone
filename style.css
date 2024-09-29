@@ -1,4 +1,4 @@
-nav ul {
+nav  {
     background-color: #454545;
 }
 
@@ -19,6 +19,23 @@ nav ul li svg:hover {
 
 .offer-stripe {
     background-color: #161617;
+}
+
+.store-list{
+    background-color: #161617;
+    height: 0px;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.store-list p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.store1-shop li {
+    font-size: 24px;
 }
 
 .products-cont .iphone-16-pro {
