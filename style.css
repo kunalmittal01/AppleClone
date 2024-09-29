@@ -1,0 +1,200 @@
+nav ul {
+    background-color: #454545;
+}
+
+nav ul li {
+    color: #F5F5F5;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+nav ul li svg {
+    fill: rgb(250 250 252 / 92%);
+}
+
+nav ul li svg:hover {
+    transition: all 0.5s ease;
+    fill: white;
+}
+
+.offer-stripe {
+    background-color: #161617;
+}
+
+.products-cont .iphone-16-pro {
+    background-image: url('https://www.apple.com/v/home/br/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 33rem;
+}
+
+.products-cont .iphone-16 {
+    background-image: url('https://www.apple.com/v/home/br/images/heroes/iphone-16/hero_iphone16_avail__euwzls69btea_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 33rem;
+}
+
+.products-cont .watch {
+    background-image: url('https://www.apple.com/v/home/br/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 33rem;
+}
+
+.products-cont .grid {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 1rem;
+}
+
+.products-cont .watch-ultra {
+    background-image: url('https://www.apple.com/in/home/promos/apple-watch-ultra-2/images/promo_apple_watch_ultra2_avail__dyawbjw9cowi_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 27rem;
+}
+
+.products-cont .airpods {
+    background-image: url('https://www.apple.com/v/home/br/images/promos/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 27rem;
+}
+
+.airpods-max {
+    background-image: url('https://www.apple.com/v/home/br/images/promos/airpods-max/promo_airpodsmax_announce__2srayzjz3iay_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 27rem;
+}
+
+.macbook {
+    background-image: url('https://www.apple.com/v/home/br/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 27rem;
+}
+
+.ipad {
+    background-image: url('https://www.apple.com/v/home/br/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 27rem;
+}
+
+.tradein {
+    background-image: url('https://www.apple.com/v/home/br/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 27rem;
+}
+
+@media screen and (max-width: 768px){
+    .products-cont .iphone-16-pro, .iphone-16 {
+        height: 31rem;
+    }
+    .products-cont .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 734px){
+    .products-cont .watch {
+        background-image: url('https://www.apple.com/v/home/br/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_small.jpg');
+    }
+}
+
+.show {
+    height: 37rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 70rem !important;
+    /* width: 100%; */
+    padding-right: 25rem;
+    /* flex: 0 0 100%; */
+}
+
+.show-cont {
+    width: 26rem;
+}
+
+.one {
+    background-image: url('https://is1-ssl.mzstatic.com/image/thumb/44dJzkosAhD0-ugRepvsfw/689x387.jpg');
+    width: 60rem
+}
+
+.two {
+    background-image: url('https://is1-ssl.mzstatic.com/image/thumb/5f_5UoHWRh5ZuhHlui5Cuw/689x387.jpg');
+}
+
+.three {
+    background-image: url('https://is1-ssl.mzstatic.com/image/thumb/nHV1YavWeg_rV-NyMqFbhQ/689x387.jpg');
+}
+
+.four {
+    background-image: url('https://is1-ssl.mzstatic.com/image/thumb/iUZiuKb8A9o5jIx0hJSvjw/689x387.jpg');
+}
+
+.five {
+    background-image: url('https://is1-ssl.mzstatic.com/image/thumb/p-dFQhrrenz0eg8_smgu9w/689x387.jpg');
+}
+
+.six {
+    background-image: url('https://is1-ssl.mzstatic.com/image/thumb/XRVC0LFY33UhYRJc3uusMA/689x387.jpg');
+}
+
+.seven {
+    background-image: url('https://is1-ssl.mzstatic.com/image/thumb/Ed-B4V6OY0yoxxlksKeulw/689x387.jpg');
+}
+
+.slider-nav ul li:before { 
+    content: "•";    
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.slider {
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+  }  
+
+.active:before {
+    color: black !important;
+}
+
+@media screen and (max-width: 734px) {
+    .show {
+        height: 23rem;
+        padding-left: 5rem !important;
+        width: 10rem !important;
+    }
+}
+
+.footer-nav {
+ display: grid;
+ grid-template-columns: repeat(5,1fr);
+}
+
+.footer-nav li {
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+}
+
+.footer-nav li:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
